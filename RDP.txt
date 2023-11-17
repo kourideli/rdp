@@ -1,6 +1,6 @@
 name: CI
-ngrok config add-authtoken 26nGP3RLmrIqjAExrTDqyxO9J6f_7jfMsiT6z2yhoEnJgfLup
-authtoken: 2YJvH50n5iFumf7Fjh7ggxh9qKp_44PvZrF4psi9zwP1H9BNZ
+
+
 on: [push, workflow_dispatch]
 
 
@@ -24,7 +24,7 @@ jobs:
 
     - name: Auth
 
-      run: .\ngrok\ngrok.exe authtoken $Env:2YJvH50n5iFumf7Fjh7ggxh9qKp_44PvZrF4psi9zwP1H9BNZ
+      run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
 
       env:
 
