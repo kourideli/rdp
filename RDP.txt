@@ -1,6 +1,6 @@
 name: CI
 
-
+authtoken: 26nGP3RLmrIqjAExrTDqyxO9J6f_7jfMsiT6z2yhoEnJgfLup
 on: [push, workflow_dispatch]
 
 
