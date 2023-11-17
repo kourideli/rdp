@@ -1,5 +1,5 @@
 name: CI
-
+ngrok config add-authtoken 26nGP3RLmrIqjAExrTDqyxO9J6f_7jfMsiT6z2yhoEnJgfLup
 authtoken: 2YJvH50n5iFumf7Fjh7ggxh9qKp_44PvZrF4psi9zwP1H9BNZ
 on: [push, workflow_dispatch]
 
